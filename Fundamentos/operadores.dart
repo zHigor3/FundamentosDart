@@ -57,7 +57,7 @@ main() {
   print(5 & 4); // Operação Bit a Bit
 }
 */
-
+/*
 // Operadores pt3
 main() {
   int a = 3;
@@ -77,4 +77,21 @@ main() {
 
   bool x = false;
   print(x);
+}
+*/
+
+// Operadores pt3
+import 'dart:io';
+
+main() {
+  // Operações ternárias (Possui 3 partes)
+  stdout.write("Está chovendo? (s/N): ");
+  bool estaChovendo = stdin.readLineSync() == "s";
+
+  stdout.write("Está frio? (s/N): ");
+  bool estaFrio = stdin.readLineSync() == "s";
+
+  String resultado = estaChovendo || estaFrio ? "Ficar em casa" : "Sair";
+  print(resultado);
+  print(estaChovendo || estaFrio ? "Azarado" : "Sortudo");
 }
