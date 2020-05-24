@@ -26,6 +26,7 @@ main(){
 }
 */
 
+/*
 // Operadores pt2
 main() {
   // Operadores de Atribuição (binário/infix)
@@ -54,4 +55,26 @@ main() {
   // 100 = 4
   // 100 = 4
   print(5 & 4); // Operação Bit a Bit
+}
+*/
+
+// Operadores pt3
+main() {
+  int a = 3;
+  int b = 4;
+
+  // Operadores Unários
+  a++;  // Posfix
+  --a;  // Prefix
+
+  print(a);
+
+  print(a++ == --b); // Posfix tem prioridade menor do que o Prefix, por isso o resultado é True
+
+  // Operador Lógico Unário (NOT)
+  print(!true);
+  print(!false);
+
+  bool x = false;
+  print(x);
 }
