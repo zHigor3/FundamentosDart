@@ -1,3 +1,4 @@
+/*
 // Imports
 import 'dart:io';
 
@@ -15,4 +16,14 @@ main() {
   
   // Mostrando resultado
   print("O valor da área da circunferência é "+area.toString());
+}
+*/
+
+// Constantes pt2
+main() {
+  var lista = const ['Ana', 'Lia', 'Gui'];
+  // lista = ['Banana', 'Maça'];
+  
+  lista.add('Rebeca');
+  print(lista);
 }
